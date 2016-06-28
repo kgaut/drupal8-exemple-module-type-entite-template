@@ -1,0 +1,22 @@
+{#
+/**
+ * @file mon_entity_type.html.twig
+ * Default theme implementation to present Mon entity type data.
+ *
+ * This template is used when viewing Mon entity type pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_mon_entity_type()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('mon_entity_type') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

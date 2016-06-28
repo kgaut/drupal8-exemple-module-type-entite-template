@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains monmodule.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function monmodule_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the monmodule module.
+    case 'help.page.monmodule':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+
+/**
+ * Implements hook_/path/to/files/foo.txt().
+ */
+function monmodule_theme() {
+  $theme = array();
+  $theme['mon_entity_type'] = array(
+    'render element' => 'elements',
+    'file' => 'mon_entity_type.page.inc',
+    'template' => 'mon_entity_type',
+  );
+  return $theme;
+}

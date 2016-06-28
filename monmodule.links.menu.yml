@@ -1,0 +1,13 @@
+# Mon entity type menu items definition
+entity.mon_entity_type.collection:
+  title: 'Mon entity type list'
+  route_name: entity.mon_entity_type.collection
+  description: 'List Mon entity type entities'
+  parent: system.admin_structure
+  weight: 100
+
+mon_entity_type.admin.structure.settings:
+  title: Mon entity type settings
+  description: 'Configure Mon entity type entities'
+  route_name: mon_entity_type.settings
+  parent: system.admin_structure

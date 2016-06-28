@@ -1,0 +1,21 @@
+# Mon entity type routing definition
+mon_entity_type.settings_tab:
+  route_name: mon_entity_type.settings
+  title: 'Settings'
+  base_route: mon_entity_type.settings
+entity.mon_entity_type.canonical:
+  route_name: entity.mon_entity_type.canonical
+  base_route: entity.mon_entity_type.canonical
+  title: 'View'
+
+entity.mon_entity_type.edit_form:
+  route_name: entity.mon_entity_type.edit_form
+  base_route: entity.mon_entity_type.canonical
+  title: Edit
+
+entity.mon_entity_type.delete_form:
+  route_name:  entity.mon_entity_type.delete_form
+  base_route:  entity.mon_entity_type.canonical
+  title: Delete
+  weight: 10
+

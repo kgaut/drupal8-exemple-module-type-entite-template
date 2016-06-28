@@ -1,0 +1,19 @@
+add mon entity type entities:
+  title: 'Create new Mon entity type entities'
+
+administer mon entity type entities:
+  title: 'Administer Mon entity type entities'
+  description: 'Allow to access the administration form to configure Mon entity type entities.'
+  restrict access: true
+
+delete mon entity type entities:
+  title: 'Delete Mon entity type entities'
+
+edit mon entity type entities:
+  title: 'Edit Mon entity type entities'
+
+view published mon entity type entities:
+  title: 'View published Mon entity type entities'
+
+view unpublished mon entity type entities:
+  title: 'View unpublished Mon entity type entities'
